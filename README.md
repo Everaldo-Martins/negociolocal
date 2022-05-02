@@ -1,4 +1,5 @@
-- Negócio Local
+# Negócio Local #
+
  Site com estrutura PHP, com a missão de promover o comércio da região, projeto ligado ao IFPB campus Santa Luzia.
  
  O site não foi concluido por ter mudado o foco para uma versão menos burocratica de hospedagem.
