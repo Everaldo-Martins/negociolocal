@@ -5,7 +5,8 @@
  O site não foi concluido por ter mudado o foco para uma versão menos burocratica de hospedagem.
  
  
- Translate
+ *Translate*
+ 
  
  Website with PHP structure, with the mission of promoting trade in the region, a project linked to the IFPB Santa Luzia campus.
  
