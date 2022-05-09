@@ -12,19 +12,33 @@
 
     $scroll->execute();
 
-    echo '<div class="carousel" id="scroll">
-                <ul>';
+    echo "<div class=\"slider\">
+
+            <div>";
 
     while($com = $scroll->fetchObject()){
         $link = $com->link;
         $logo = $com->logo;
 
-        echo '
-                    <li><a href="'.$link.'" target="_blank"><img src="./essets/img/comercio/'.$logo.'" alt="'.$logo.'"></a></li>
-                ';
+        echo "
+                <a href=\"$link\" target=\"_blank\"><img src=\"./essets/img/comercio/$logo\" alt=\"$logo\"></a>
+                ";
+    }
+    echo "</div>
+    
+        <div>";
+        $scroll->execute();
+        
+    while($com = $scroll->fetchObject()){
+        $link = $com->link;
+        $logo = $com->logo;
+    
+        echo "
+                <a href=\"$link\" target=\"_blank\"><img src=\"./essets/img/comercio/$logo\" alt=\"$logo\"></a>
+                ";
     }
 
     echo '
-                </ul>
             </div>
+        </div>
     ';
